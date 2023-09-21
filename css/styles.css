@@ -80,3 +80,36 @@ body {
 h3 {
     color: var(--NAVY-BLUE);
 }
+
+p {
+    color: var(--NAVY-BLUE);
+}
+.works {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+h2 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.main-footer {
+    
+}
