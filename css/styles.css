@@ -62,8 +62,12 @@ body {
 
 .order-service {
     background-color: var(--NAVY-BLUE);
+}
+
+h1 {
+    color: var(--WHITE, #FFF);
     text-align: center;
-    color: var(--WHITE);
+    /* Header 1 */
     font-family: Roboto;
     font-size: 56px;
     font-style: normal;
@@ -71,7 +75,6 @@ body {
     line-height: 60px; /* 107.143% */
     letter-spacing: 1.12px;
 }
-
 .button {
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
