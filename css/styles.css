@@ -43,6 +43,10 @@ text-transform: uppercase;
     text-decoration: none;
 }
 
+li {
+    list-style-type: none;
+}
+
 .contact-details a {
     color: var(--SLATE, #434455);
     text-decoration: none;
