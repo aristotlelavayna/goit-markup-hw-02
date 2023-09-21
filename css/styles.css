@@ -4,7 +4,9 @@
     --CORNFLOWER: #E7E9FC;
     --SLATE: #434455;
     --WHITE: #FFFFFF;
+    --CLOUD: #F4F4FD;
 }
+
 .logo {
     color: var(--NAVY-BLUE, #2E2F42);
 font-family: Raleway;
@@ -81,9 +83,6 @@ h3 {
     color: var(--NAVY-BLUE);
 }
 
-p {
-    color: var(--NAVY-BLUE);
-}
 .works {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -111,5 +110,23 @@ h2 {
 }
 
 .main-footer {
-    
+    background-color: var(--NAVY-BLUE);
+}
+
+.logo-footer span {
+    color: var(--IRIS);
+}
+.logo-footer {
+    color: var(--CLOUD);
+    text-decoration: none;
+}
+.footer {
+    color: var(--CLOUD, #F4F4FD);
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
