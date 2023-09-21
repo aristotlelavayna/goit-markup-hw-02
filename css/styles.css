@@ -28,7 +28,7 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 
-.menu-links {
+.menu-links a {
     color: var(--NAVY-BLUE);
     
     /* Body Medium */
@@ -41,8 +41,9 @@ text-transform: uppercase;
     text-decoration: none;
 }
 
-.contact-details {
+.contact-details a {
     color: var(--SLATE, #434455);
+    text-decoration: none;
 
     /* Body */
     font-family: Roboto;
