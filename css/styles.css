@@ -44,8 +44,9 @@ text-transform: uppercase;
     text-decoration: none;
 }
 
-.menu-links .link:hover,
-.menu-links .link:focus {
+.menu-links a:hover,
+.menu-links a:focus
+{
     color: var(--OCEAN);
 }
 
@@ -66,6 +67,10 @@ li {
     letter-spacing: 0.32px;
 }
 
+.contact-details a:hover,
+.contact-details a:focus {
+    color: var(--OCEAN);
+}
 
 body {
     font-family: "Roboto";
